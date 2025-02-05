@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+textarea{
+  background-color: #9f9494;
+  border-radius: 10px;
+  border-color: #202020;
+  border-bottom: #202020;
+}
+
+li{
+
+    background-color:#cac3c3;
+    font-size: large;
+}
+body{
+    background-color: #9f9494;
+}
+p{
+ 
+    border-radius: 10px;
+}
+li.hover{
+color: #9f9494;
+}
+footer{
+  background-color: rgb(255, 255, 255);
+}
+
+h1{
+ 
+  color: #201517;
+  background-color: white;
+}
+a{
+ 
+  color: #ffffff;
+}
+:root {
+  --white: #fff;
+  --red: #aa0505;
+  --gray: #959595;
+  --blue: #56c5db;
+}
+
+
+
+.História{
+ 
+background-color: #eee;
+border-radius: 5px;
+}
+
+.navbarNavDropdown{
+  display: flexbox;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 1.3px;
+  
+}
+
+body, button, input, textarea {
+  font: 400 16px "Roboto", sans-serif;
+}
+
+li {
+ 
+  list-style-type: none;
+}
+
+a {
+ 
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+ 
+}
+
+
+
+
+
