@@ -9,11 +9,12 @@ textarea{
 
 li{
 
-    background-color:#cac3c3;
+    background-color:#979696;
     font-size: large;
+   border-radius: 1.5px;
 }
 body{
-    background-color: #9f9494;
+    background-color: #7a7979;
 }
 p{
  
@@ -30,6 +31,10 @@ h1{
  
   color: #201517;
   background-color: white;
+}
+h2{
+  background-color: #959595;
+  color: #d1cfcf;
 }
 a{
  
@@ -76,15 +81,28 @@ li {
 a {
  
   text-decoration: none;
-  color: white;
+  color: rgb(219, 214, 214);
 }
 
 button {
   cursor: pointer;
  
 }
-
-
-
-
-
+.IML{
+  align-content: center
+}
+p{
+  padding: 25px;
+  font-size: 25px
+}
+b{
+  font-size: 25px;
+  background-color: #5a5959;
+  border-radius: 5px;
+  color: #c5c5c5;
+}
+dd{
+  font-size: 25px;
+  background-color: #5a5959;
+  border-radius: 5px;
+}
