@@ -52,81 +52,92 @@
 <!--Deixar o acesso do cadastro apenas quando o login for feito-->
 <br>
 <h2>
-  <br><center> <dd>Bem-vindo de volta!</dd><br>
-<dd>Qual o tipo de cadastro deseja fazer?</dd></center> <br>
+  <br><center> <dd>Cadastro de identificação cadavérica:</dd><br>
+<dd>Caso não obtenha os documentos escreva "Não obtido" para prosseguir(pode ser link do google docs, link de documento ou código do processo)</dd></center> <br>
   <center>
   
-  
-  
- <!-- <b>Identificação Cadavérica</b>
-  
-  <p><br>Quando um corpo não possui identificação, realizamos exames de impressão digital, análise odontológica e até testes de DNA para confirmar sua identidade.</p>
-  <b>Exames de Lesão Corporal</b>
-  
-  <p><br>Além da análise de corpos, também examinamos pessoas vivas para avaliar lesões decorrentes de agressões, acidentes ou outras situações que envolvem investigações criminais.</p>
-  <b>Cremação e Enterro</b>
-  
-  <p><br>Somos responsáveis por emitir documentos necessários para a liberação de corpos para sepultamento ou cremação, garantindo que todas as causas da morte foram devidamente investigadas antes da liberação.</p>
-  <b>Recolhimento de Corpos</b>
-  
-  <p><br>Quando ocorre uma morte violenta, acidental ou suspeita, fazemos o recolhimento do corpo no local do falecimento para análise e posterior liberação para os familiares.</p></h2>
-  -->
-
-  
-  <br>
 
 
-  <div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="card">
-          <b><a href="identificacao.html">Identificação Cadavérica</a></b>
-          
-           
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="col">
-        <div class="card">
-          <b><a href="exames.html">Exames de Lesão Corporal</a></b>
 
-          
-           
-          </div>
-      
-      <br>
-      <div class="col">
-        <div class="card">
-          <b><a href="cremação.html">Cremação</a></b>
 
-          
-           
-          </div>
-        </div>
-<br>
-        <div class="col">
-          <div class="card">
-            <b><a href="enterro.html">Enterro</a></b>
-  
+
+
+<form class="form">
+    <p class="title"> Dados do paciente </p>
+        <div class="flex">
+        <label>
+            <input required="" placeholder="Nome" type="text" class="input">
+        </label>
+
+        <label>
+            <input required="" placeholder="Sobrenome" type="text" class="input">
+        </label>
+    </div>  
             
-             
-            </div>
-          </div>
+    <label>
+        <input required="" placeholder="Boletim de ocorrência" type="email" class="input">
+    </label> 
 
 
-      </div>
-<br>
-      <div class="col">
-        <div class="card">
-          <b><a href="recolhimento.html">Recolhimento de Corpos</a></b>
+<label>
+    <select class="form-select">
+        <option selected>Documento de identificação</option>
+        <option value="1">RG</option>
+        <option value="2">CPF</option>
+        <option value="3">CNH</option>
+        <option value="4">passaporte</option>
+      </select>
+    </label>
 
-         
-          </div>
+
+    <label>
+        <input required="" placeholder="Documento digitado" type="email" class="input">
+    </label> 
+
+
+
+    <label>
+        <input required="" placeholder="Relatório de exame (corpo de delito)" type="email" class="input">
+ </label> 
+
+
+ <label>
+    <input required="" placeholder="Comprovante de parentesco de familiares" type="email" class="input">
+</label> 
+
+
+<label>
+    <input required="" placeholder="Autorização judicial com identificação" type="email" class="input">
+</label> 
+
+
+<label>
+    <input required="" placeholder="Declaração de óbito (se disponível)" type="email" class="input">
+</label> 
+
+
+<label>
+    <input required="" placeholder="Código do cadastrador" type="email" class="input">
+</label> 
+
+    <label>
+        <input required="" placeholder="Email do cadastrador" type="number" class="input">
+    </label> 
         
+    <label>
+        <input required="" placeholder="senha" type="password" class="input">
+    </label>
+    <label>
+        <input required="" placeholder="Anexos extras" type="text" class="input">
+    </label>
+    <button class="submit"><a href="finalizado.html">Enviar</a></button>
+</form>
 
-    </div>
-  </div>
+
+
+
+
+
   </center>
   <br><br><br><br><br><br><br><br><br>
 </h2>
