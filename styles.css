@@ -9,15 +9,15 @@ textarea{
 
 li{
 
-    background-color:#979696;
+    background-color:#e6e5e5;
     font-size: large;
    border-radius: 1.5px;
+   color: #fff;
 }
 body{
     background-color: #7a7979;
 }
 p{
- 
     border-radius: 10px;
 }
 li.hover{
@@ -34,7 +34,7 @@ h1{
 }
 h2{
   background-color: #959595;
-  color: #d1cfcf;
+  color: #ffffff;
 }
 a{
  
@@ -99,14 +99,13 @@ b{
   font-size: 25px;
   background-color: #5a5959;
   border-radius: 5px;
-  color: #c5c5c5;
+  color: #ffffff;
 }
 dd{
   font-size: 25px;
   background-color: #5a5959;
   border-radius: 5px;
 }
-
 
 
 
